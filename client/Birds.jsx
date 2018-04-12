@@ -9,7 +9,7 @@ class Birds extends React.Component {
         this.state = {
             
         }
-        console.log(data)
+        // console.log(data)
         // BINDING BIZZO
 }
 
@@ -18,7 +18,7 @@ render() {
     <div>
         <ul>
         {data.map(bird => {
-            return <li><Link to={'/' + bird.name}>{bird.name}</Link></li>
+            return <li><Link to={'/birds/' + bird.name}>{bird.name}</Link></li>
         })}
         </ul>
     </div>
