@@ -3,6 +3,9 @@ var ReactDOM = require('react-dom')
 
 import App from './App'
 
-var placeToMount = document.getElementById('root')
-
-ReactDOM.render(<App />, placeToMount)
+document.addEventListener('DOMContentLoaded', () => {
+    ReactDOM.render(
+      <App />,
+      document.getElementById('root')
+    )
+  })

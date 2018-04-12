@@ -1,26 +1,17 @@
 import React from 'react'
+import {HashRouter as Router, Route} from 'react-router-dom'
 
-class App extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      birds: [
-        {id: 1, name: 'Kokako', description: 'Brave'},
-        {id: 2, name: 'Kea', description: 'Cheeky'},
-        {id: 3, name: 'Kiwi', description: 'Shy'}
-      ]
-    }
-   
-  }
+import BirdProfile from './BirdProfile'
 
-  render() {
-    console.log(this.state)
-    return <div>
-      <h1>Birds</h1>
-      <hr />
-      <p>Here they are</p>
-    </div>
-  }
+const App = () => {
+  
+  return(
+    <Router>
+      <div>
+      <Route path='/:bird' component={BirdProfile}/>
+      </div>
+      </Router>
+  )
 }
 
 export default App
