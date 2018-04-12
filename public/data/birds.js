@@ -1,3 +1,5 @@
+import React from 'react'
+
 const birds = [
     {id: 1
     name: 'Kōkako'
@@ -59,3 +61,5 @@ const birds = [
     description: 'Kea are unashamedly reckless. Whether they are testing your car, your brand new alpine tent or your lunch, they certainly make themselves known. Their cheeky antics and curious behaviour often lands them in a whole lot of trouble, landing them the notorious title of "clown of the mountains". This group of parrots is unusual, retaining more primitive features lost in most other parrots, because it split off from the rest around 100 million years ago. As cavity nesters with a long incubation period that requires the mother to stay on the nest for at least 90 days, kaka are particularly vulnerable to predation.'
     status: 'Somewhat Endangered'}
 ]
+
+export default birds 
