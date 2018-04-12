@@ -7,11 +7,11 @@ body {
 	font-family: Arial, Helvetica, sans-serif
 }
 
-.overbody {
+.overlay {
 	width: 100%;
 	height: 100%;
 	background-color: #000000;
-	opacity: 0.80;
+	opacity: 0.50;
 	margin: 0;
 }
 
@@ -65,4 +65,12 @@ h4 {
 
 h5 {
 	color: black;
+}
+
+.welcome {
+	color: blueviolet;
+}
+
+.title {
+	color: pink;
 }
