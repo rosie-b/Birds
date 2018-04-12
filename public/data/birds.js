@@ -2,7 +2,7 @@ import React from 'react'
 
 const birds = [
     {id: 1,
-    name: 'Kōkako',
+    name: 'Kokako',
     description: 'The kōkako has a beautiful, clear, organ-like song. Its call can carry for kilometres. Breeding pairs sing together in a bell-like duet for up to an hour in the early morning. Kōkako are poor fliers and seldom fly more than 100 metres. They do not fly so much as glide! Their ecological niche is frequently compared to that of flying squirrels. Low key the best birdie.',
     status: 'Seriously endangered' ,
     image_url: '/images/kokako.png',

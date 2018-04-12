@@ -1,9 +1,16 @@
 import React from 'react'
-import data from '../public/data/birds'
+import birds from '../public/data/birds'
 
-const BirdProfile = ({match}) => {
-    const {bird} = match.params
+const BirdProfile = (props) => {
+    const name = props.match.params.bird 
+    const findBird = birds.find((bird)=>{
+        
+       if (name == bird.name.toLowerCase()) {
+           return bird.name
+       }
 
+    })
+    console.log(findBird)
     return (
         <React.Fragment>
             <div className="overbody">
@@ -13,9 +20,10 @@ const BirdProfile = ({match}) => {
 					</div>
 					<div className="birdprofile">
 						<div className="birdimg">
-							<p><img src="bird.jpg" alt="birdpic"/></p>
+							<img className="birdpicture" src={findBird.image_url} alt="birdpic"/>
 						</div>
-						<h5>I am information about this bird. Tweet.</h5>
+                        <p className="birdDescription">{findBird.name}</p>
+						<p>{findBird.description}</p>
 					</div>
 				</div>		
 			</div>
