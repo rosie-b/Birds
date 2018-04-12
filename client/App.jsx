@@ -12,7 +12,7 @@ const App = () => {
         <div>
           <Route exact path = '/' component = {Home} />
           <Route exact path = '/birds' component = {Birds} />
-          <Route exact path='/:id' component={BirdProfile}/>
+          <Route exact path='/birds/:bird' component={(props)=> <BirdProfile bird={props}/>}/>
         </div>
       </Router>
     )  
