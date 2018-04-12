@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js
+  /home/student/.nvm/versions/node/v8.10.0/bin/node /usr/share/yarn/bin/yarn.js
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+  /home/student/.nvm/versions/node/v8.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
 Yarn version: 
   1.5.1
@@ -11,14 +11,14 @@ Node version:
   8.10.0
 
 Platform: 
-  darwin x64
+  linux x64
 
 npm manifest: 
   {
     "name": "react-minimal",
     "version": "0.1.0",
-    "description": "the essence of a react component",
-    "repository": "https://github.com/dev-academy-challenges/react-minimal.git",
+    "description": "Informing users about the different birds each cohort is named after.",
+    "repository": "https://github.com/Kokako-2018/birds.git",
     "main": "index.js",
     "scripts": {
       "start": "node server",
@@ -3139,12 +3139,12 @@ Trace:
   Exit code: 2
   Command: sh
   Arguments: -c webpack
-  Directory: /Users/anthonylebrun/workspace/birds
+  Directory: /home/student/workspace/birds
   Output:
   
-      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
-      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:226:113)
-      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:30281:17)
+      at ProcessTermError.MessageError (/usr/share/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/share/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/share/yarn/lib/cli.js:30281:17)
       at emitTwo (events.js:126:13)
       at ChildProcess.emit (events.js:214:7)
       at maybeClose (internal/child_process.js:925:16)
