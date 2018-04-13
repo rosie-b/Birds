@@ -1,6 +1,8 @@
 
 .birdpicture {
-	width: 100px;
+    margin-top: 0;
+    width: 150px;
+    border-radius: 50%;
 }
 
 .birdDescription {
@@ -27,4 +29,12 @@
     color: violet;
     font-size: 1.5em;
     font-style: italic;
+}
+
+.audioClick {
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
 }
