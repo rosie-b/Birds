@@ -101,3 +101,16 @@ button {
 p {
 	font-family: raleway;
 }
+
+.coverflow img {
+	border-radius: 50%;
+}
+
+.coverflow {
+	background-size: cover;
+	background: rgba(0, 0, 0, 0)
+}
+
+.coverflow cover {
+	background-color: red;
+}

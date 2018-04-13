@@ -8,21 +8,23 @@ import { StyleRoot } from 'radium';
 const Birds = function () {
     /* do you want */
 
-    return < div>
+    return < div className="coverflow">
         <StyleRoot>
             <Coverflow
+
                 displayQuantityOfSide={2}
-                navigation
+                navigation={false}
                 infiniteScroll
                 enableHeading
+
                 media={{
                     '@media (max-width: 900px)': {
-                        width: '600px',
-                        height: '300px'
+                        width: '100%',
+                        height: '900px'
                     },
                     '@media (min-width: 900px)': {
-                        width: '960px',
-                        height: '600px'
+                        width: '100%',
+                        height: '900px'
                     }
                 }}
             >
