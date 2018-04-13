@@ -2,8 +2,6 @@ body {
 	background-image: url("https://media.giphy.com/media/uf3jumi0zzUv6/giphy.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* background-color: #000000; */
-	/* opacity: 0.50; */
 	margin: 0;
 	color: lightgray;
 	font-family: Arial, Helvetica, sans-serif;
@@ -22,39 +20,6 @@ body {
 	flex-direction: column;
   }
 
-
-/* .wrapper {
-	background-size:cover;
-	background-color: #000000;
-	opacity: 0.50;
-	margin: 0;
-} */
-
-/* .content {
-	padding: 5%;
-	text-align: center;
-} */
-
-/* .pagehead {
-	padding: 0 0 5% 0;
-} */
-
-/* .birdsearch {
-	border-radius: 50%;
-	background-color: white;
-	height: 400px;
-	width: 400px;
-	margin: auto;
-} */
-
-/* .birdprofile {
-	border-radius: 50%;
-	background-color: white;
-	height: 600px;
-	width: 600px;
-	margin: auto;
-}	 */
-
 .birdimg{
 	z-index: 10;
 	background-color: blueviolet;
@@ -68,9 +33,7 @@ body {
 }
 
 h1 {
-
-	/* Anton|Berkshire+Swash|Oswald|Righteous|Roboto */
-	/* make a super cool text and all big and other such things */
+font-family:Berkshire Swash;
 }
 
 h4 {  
@@ -124,4 +87,8 @@ button {
 	object-fit: cover;
 	width: 200px;
 	height: 200px;
+}
+
+p {
+	font-family: raleway;
 }

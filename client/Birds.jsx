@@ -7,10 +7,8 @@ class Birds extends React.Component {
     constructor(props) {
     super(props) 
         this.state = {
-            
+           
         }
-        // console.log(data)
-        // BINDING BIZZO
 }
 
 render() {
