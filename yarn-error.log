@@ -1,5 +1,5 @@
 Arguments: 
-  /home/student/.nvm/versions/node/v8.10.0/bin/node /usr/share/yarn/bin/yarn.js dev
+  /home/student/.nvm/versions/node/v8.10.0/bin/node /usr/share/yarn/bin/yarn.js add react-sound
 
 PATH: 
   /home/student/.nvm/versions/node/v8.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
@@ -43,6 +43,7 @@ npm manifest:
       "react": "^16.2.0",
       "react-dom": "^16.2.0",
       "react-router-dom": "^4.2.2",
+      "react-sound": "^1.1.0",
       "webpack": "^3.10.0"
     }
   }
@@ -2405,7 +2406,7 @@ Lockfile:
     dependencies:
       asap "~2.0.3"
   
-  prop-types@^15.5.4:
+  prop-types@^15.5.4, prop-types@^15.5.7:
     version "15.6.1"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
     dependencies:
@@ -2543,6 +2544,13 @@ Lockfile:
       path-to-regexp "^1.7.0"
       prop-types "^15.5.4"
       warning "^3.0.0"
+  
+  react-sound@^1.1.0:
+    version "1.1.0"
+    resolved "https://registry.yarnpkg.com/react-sound/-/react-sound-1.1.0.tgz#d3647c2cbe8adabc3c6661a804d810f23e81917a"
+    dependencies:
+      prop-types "^15.5.7"
+      soundmanager2 "^2.97.20170602"
   
   react@^16.2.0:
     version "16.2.0"
@@ -2790,6 +2798,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/sntp/-/sntp-1.0.9.tgz#6541184cc90aeea6c6e7b35e2659082443c66198"
     dependencies:
       hoek "2.x.x"
+  
+  soundmanager2@^2.97.20170602:
+    version "2.97.20170602"
+    resolved "https://registry.yarnpkg.com/soundmanager2/-/soundmanager2-2.97.20170602.tgz#fe3bc731bfc4d54c1364e71980263e6816981879"
   
   source-list-map@^2.0.0:
     version "2.0.0"
@@ -3212,9 +3224,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 127
+  Exit code: 2
   Command: sh
-  Arguments: -c node server & webpack --watch
+  Arguments: -c webpack
   Directory: /home/student/workspace/birds
   Output:
   
