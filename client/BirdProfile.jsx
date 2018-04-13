@@ -22,12 +22,25 @@ const BirdProfile = (props) => {
 						<h1>Birds</h1>
 					</div>
 					<div className="birdprofile">
-						<div className="birdimg">
+						<div className='upperContainer'>
+                        <div className="birdimg">
 							<img className="birdpicture" src={findBird.image_url} alt="birdpic"/>
-						</div>
-                        <p className="birdDescription">{findBird.name}</p>
-						<p>{findBird.description}</p>
-					</div>
+                        </div>
+                        <div>
+                            <div className="birdName">
+                            <h4>{findBird.name}</h4>
+                            </div>
+                            <div className="instructions">
+                            Click my picture to hear me speak!
+                        </div>
+                        </div>
+                        
+                    	</div>
+                      
+                        <div className="birdDescription">
+                            <p>{findBird.description}</p>
+                        </div>
+                    </div>
 				</div>		
 			</div>
         </React.Fragment>

@@ -31,7 +31,7 @@ const birds = [
 
     {id: 5,
     name: 'Weka',
-    description:'Weka were used by the Māori as a source of food, perfume, oil to treat inflammations, feathers in clothing and lures to catch dogs. On average, female weka lay three creamy or pinkish eggs blotched with brown and mauve. Both sexes incubate. The Department of Conservation identifies eight main threats to weka. Predation by ferrets, cats, and dogs are a threat to adult weka;[17] stoats and ferrets are a threat to chicks; stoats and rats are a threat to eggs. They have been known to steal shiny objects such as tin-foil.',
+    description:'Weka were used by the Māori as a source of food, perfume, oil to treat inflammations, feathers in clothing and lures to catch dogs. On average, female weka lay three creamy or pinkish eggs blotched with brown and mauve. Both sexes incubate. The Department of Conservation identifies eight main threats to weka. Predation by ferrets, cats, and dogs are a threat to adult weka; stoats and ferrets are a threat to chicks; stoats and rats are a threat to eggs. They have been known to steal shiny objects such as tin-foil.',
     status: 'Somewhat endangered' ,
     image_url: '/images/weka.png',
     sound:'/sounds/north-island-weka-song.mp3' },
