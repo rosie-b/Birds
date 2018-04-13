@@ -15,13 +15,19 @@ class Birds extends React.Component {
 
 render() {
   return (
-    <div>
-        <ul>
+    <div className = "wrapper">
+
         {data.map(bird => {
-            return <li><Link to={'/birds/' + bird.name}>{bird.name}</Link></li>
+            return (
+            <div className = "birdlist">
+                <Link to={'/birds/' + bird.name}>
+                    <img class="list-pic" src ={bird.image_url} /> 
+                    {/* {bird.name} */}
+                </Link>
+            </div>
+            )
         })}
-        </ul>
-    </div>
+        </div>
   )    
 
 }
