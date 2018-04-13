@@ -66,7 +66,7 @@ const birds = [
 
     {id: 10,
     name: 'Kakapo',
-    description:'Kākāpō used to be one of the most common birds in New Zealand, found across almost the entire country. Hunting, habitat loss and the introduction of mammalian predators lead to a severe decline in the population. By 1995 there were only 51 kākāpō known to survive. By the 1970s only 18 kākāpō were left – all in Fiordland and all males. The species seemed doomed. But in 1977, a population of male and female kākāpō was discovered on Stewart Island. A combination of traits make it unique among its kind; it is the world\'s only flightless parrot, the heaviest parrot, nocturnal, herbivorous, visibly sexually dimorphic in body size, has a low basal metabolic rate and no male parental care, and is the only parrot to have a polygynous lek breeding system.',
+    description:'Kākāpō used to be one of the most common birds in New Zealand, found across almost the entire country. Hunting, habitat loss and the introduction of mammalian predators lead to a severe decline in the population. By 1995 there were only 51 kākāpō known to survive. By the 1970s only 18 kākāpō were left – all in Fiordland and all males. The species seemed doomed. But in 1977, a population of male and female kākāpō was discovered on Stewart Island. A combination of traits make it unique among its kind; it is the world\'s only flightless parrot, nocturnal, herbivorous parrot. It is also the heaviest parrot ever.',
     status: 'Seriously Endangered',
     image_url: '/images/kakapo.png',
     sound:'/sounds/kakapo-26.mp3' },
