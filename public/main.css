@@ -2,42 +2,45 @@ body {
 	background-image: url("https://media.giphy.com/media/uf3jumi0zzUv6/giphy.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
+	/* background-color: #000000; */
+	/* opacity: 0.50; */
 	margin: 0;
 	color: lightgray;
-	font-family: Arial, Helvetica, sans-serif
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
 }
 
-.wrapper {
+/* .wrapper {
 	background-size:cover;
 	background-color: #000000;
 	opacity: 0.50;
 	margin: 0;
-}
+} */
 
-.content {
+/* .content {
 	padding: 5%;
 	text-align: center;
-}
+} */
 
-.pagehead {
+/* .pagehead {
 	padding: 0 0 5% 0;
-}
+} */
 
-.birdsearch {
+/* .birdsearch {
 	border-radius: 50%;
 	background-color: white;
 	height: 400px;
 	width: 400px;
 	margin: auto;
-}
+} */
 
-.birdprofile {
+/* .birdprofile {
 	border-radius: 50%;
 	background-color: white;
 	height: 600px;
 	width: 600px;
 	margin: auto;
-}	
+}	 */
 
 .birdimg{
 	z-index: 10;
@@ -52,8 +55,8 @@ body {
 }
 
 h1 {
-	margin: 0;
-	color: lightgrey;
+
+	/* Anton|Berkshire+Swash|Oswald|Righteous|Roboto */
 	/* make a super cool text and all big and other such things */
 }
 
@@ -76,9 +79,22 @@ h5 {
 }
 
 .welcome {
-	color: blueviolet;
+	text-align: center;
+	font-family:raleway; 
+	color: rgb(185, 231, 150);
 }
 
 .title {
-	color: pink;
+	text-align: center;
+	margin: 0;
+	color:rgb(185, 231, 150);
+	font-size: 15em;
+	font-family: berkshire swash;
+}
+
+button {
+	color: rgb(185, 231, 150);
+	font-size: 1em;
+	margin-top: 2em;
+	background-color:  rgba(32, 59, 10, 0.7)
 }
