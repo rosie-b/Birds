@@ -24,7 +24,13 @@ const BirdProfile = (props) => {
 					<div className="birdprofile">
 						<div className='upperContainer'>
                         <div className="birdimg">
+                           
+                            <audio id="myAudio">
+                                <source src="{findBird.sound}" type="audio/mpeg" />
+                            </audio>
 							<img className="birdpicture" src={findBird.image_url} alt="birdpic"/>
+                        
+                      
                         </div>
                         <div>
                             <div className="birdName">
@@ -39,6 +45,7 @@ const BirdProfile = (props) => {
                       
                         <div className="birdDescription">
                             <p>{findBird.description}</p>
+                            <p>{findBird.status}</p>
                         </div>
                     </div>
 				</div>		
@@ -46,7 +53,6 @@ const BirdProfile = (props) => {
         </React.Fragment>
     )
 }
-
 
 
 
